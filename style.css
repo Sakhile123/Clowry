@@ -1,7 +1,9 @@
 body {
-  background-color: rgba(170, 140, 140, 0.26);
+  background-color: rgb(231, 57, 57);
   margin: 0;
+ margin-bottom: 13px;
   padding-bottom: 50px;
+ color: white;
 }
 .search{
   margin-right: 15px;
@@ -56,6 +58,7 @@ nav {
     width: 100%;
     margin: 0;
     margin-top: 0;
+    background-color: rgba(37, 34, 34, 0.603);
   }
 
   img{
@@ -67,4 +70,8 @@ nav {
   video{
     place-content: center;
   }
+
+p{
+  margin-left: 15px;
+}
  
