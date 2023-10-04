@@ -1,16 +1,4 @@
-body {
-  background-color: rgb(231, 57, 57);
-  margin: 0;
- margin-bottom: 13px;
-  padding-bottom: 50px;
- color: white;
-}
-.search{
-  margin-right: 15px;
-  float:right;
-  border-radius: 50px;
 
-}
 .logo{
   margin-left: 18px;
     color: rgb(245, 129, 129);
@@ -20,58 +8,28 @@ body {
     text-align: center;
 }
 
-nav {
-    background: transparent;
-    overflow: hidden;
-  }
   
-  nav ul {
+  nav {
     list-style-type: none;
-    margin-left: 500px;
-    margin-top: 1px;
-    padding: 0;
-    overflow: hidden;
+    margin-left: 650px;
+  
   }
   
-  nav li {
-    float: left;
-  }
   
-  nav li a {
-    display: flex;
+  nav  a {
+   
     color: rgb(245, 129, 129);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: bold;
-    cursor: pointer;
+    font-size: 15px;
   }
-  nav li a:hover{
+  nav  a:hover{
     background-color: none;
-    color:rgb(10, 10, 10);
+    color:white;
     box-shadow: 0 20px 20px rgb(73, 73, 73);
   }
-
-  header{
-    width: 100%;
-    margin: 0;
-    margin-top: 0;
-    background-color: rgba(37, 34, 34, 0.603);
-  }
-
-  img{
-    width: 200px;
-    height:200px;
-    margin-left:60px;
-  }
-
-  video{
-    place-content: center;
-  }
-
-p{
-  margin-left: 15px;
-}
- 
+ .header{
+  text-align: center;
+ }
