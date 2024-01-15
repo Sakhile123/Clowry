@@ -2,94 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glowry</title>
+    <title>Glwory</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .hero{
+            margin-left: 15px;
+            display: flex;
+            margin-top: 5%;
+        }
+        .hero img{
+            float: left;
+            width: 400px;
+            height: 450px;
+            margin-left:5%;
+        }
+        .hero img:hover{
+            opacity: 0.5;
+            color: red;
+        }
+        .hero .h1{
+            margin-left:7%; 
+        }
+        .hero .h1 h1{
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+        .hero .h1 h3{
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .hero .h1 span{
+            border:solid;
+            border-radius: 50%;
+        }
+        .hero .h1 span:hover{
+            background-color: black;
+            color: red;
+            font-size: 60px;
+        }
+    </style>
 </head>
-<style>
-  
-  .cup-image {
-    width: 300px;
-    height: 300px;
-    margin-right: 15px;
-  }
-
-  .container-cup1,
-  .container-cup2,
-  .container-cup3,
-  .container-cup4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-    width: min-content;
-
-  }
-  .container{
-    text-align: center;
-    margin-left: 200px;
-  }
-</style>
-
-  
-</style>
-
- <body>
-  <header style="background-color: rgb(37, 36, 36); ;">
-    <div class="logo">Glowry</div>
-
-  <div class="navbar">
-    <nav>
-            <a href="Glowry.html">Home</a>
-            <a href="About.html">About</a>
-            <a href="index.html">Products</a>
-            <a href="#contacts" >Contact</a>
-          
-      </nav>
-     
-</div>
-</header>
-<div class="header">
-  <h1>Products</h1>
-<br>
-<h2>Our NEVER ending Sale</h2>
-</div>
-
-<div class="container">
-<div class="container-cup1" style="float: left;  border: solid black;
-background-color: white; ">
-<img src="pc.jpeg"  style="width: 300px;height: 300px;margin-right: 15px;">
-<h2 style="text-align: center;">R65.00</h2>
-<button style="text-align: center; background-color: red;">Order</button>
-</div>
-
-<div class="container-cup2"  style="float: left;  border: solid black;
-background-color: white;">
-<img src="pc1.jpeg" style="width: 300px;height: 300px;">
-<h2 style="text-align: center;">R65.00</h2>
-<button style="text-align: center; background-color: red;">Order</button>
-</div>
-
-<div class="container-cup3"  style="float: left;  border: solid black;
-background-color: white;">
-<img src="pc2.jpeg"  style="width: 300px;height: 300px;">
-<h2 style="text-align: center;">R65.00</h2>
-<button style="text-align: center; background-color: red;">Order</button>
-</div>
-
-<div class="container-cup4" style="  border: solid black;
-background-color: white; ">
-<img src="pc.jpeg"  style="width: 300px;height: 300px;">
-<h2 style="text-align: center;">R65.00</h2>
-<button style="text-align: center; background-color: red;">Order</button>
-</div>
-</div>
-<footer type="text" id="Contact">
-  <h1>Contact</h1>
-  <p>072 431 3513</p>
-  <p>072 431 3513</p>
-</footer>
-
-  </body>
+<body>
+    <header>
+        <logo>Glowry<span>18+</span></logo>
+           <div class="navbar">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="products.html">Products</a>
+              <a href="contact.html">Contact</a>
+              <a><i class="fa fa-search"></i></a>  
+              <button onclick="toggleMode()"><i class="fa fa-moon"></i></button>
+    
+           </div>
+    </header>
+    <!--Home-->
+    <section>
+        <div class="hero">
+            <img src="pc1.jpeg">
+            <div class="h1">
+            <h1>Passion  <span>18+</span></h1><br>
+            <h3>Love & Lust Your Way</h3>
+            <p> Explore your kinkiness to your heart extent</p>
+        </div>
+        </div>
+    </section>
+    <!--Home-->
+    <!--sec-->
+    <section >
+     <div class="index">
+      
+    </section>
+    <!--sec-->
+    <footer>
+        <p>
+            &copy;Glowry
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
