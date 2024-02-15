@@ -7,7 +7,90 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-    </style>
+        body{
+            background-image: url(coffe.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .contact{
+            text-align: center;
+            
+        }
+        .conatct .fa.fa-phone{
+            color: blue;
+            font-size: 50px;
+        }
+        .contact .fab.fa-whatsapp{
+            color:green;
+            font-size: 20px;
+        }
+      .order{
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+        width: 300px;
+        height: 50vh;
+        border-radius: 5px;
+        margin-left: 40%;
+        display: flex;
+      }
+      .order .form{
+        margin-top: 50px;
+      }
+       label{
+        font-size: 50px;
+      }
+      a{
+        font-size: 20px;
+      }
+      .ds{
+        margin-top: 40px;
+      }
+      .contact h1{
+        color: white;
+    }
+      @media (max-width: 768px) {
+    
+        .contact{
+        margin: 0;
+        padding: 0;
+         
+        }
+       
+        .order .form{
+    margin-inline-start: 0;
+        } 
+        .icons{
+            margin-left: 30px;
+            font-size: 30px;
+            padding:10px;
+        } 
+    }
+    footer{
+        margin-top: 5%;
+    }
+    .icons{
+        margin-left: 50px;
+        font-size: 50px;
+        padding:15px;
+        margin-right: 35px;
+    }
+    .icons .fab.fa-facebook:hover{
+        color: rgb(0, 89, 255);
+    }
+    .icons .fab.fa-instagram:hover{
+        color: rgb(195, 73, 252);
+    }
+    .icons .fab.fa-twitter:hover{
+        color: rgb(50, 187, 221);
+    }
+    .icons .fab{
+        color:white;
+    }
+       
+      
+          </style>
 </head>
 <body>
     <header>
@@ -18,15 +101,39 @@
               <a href="products.html">Products</a>
               <a href="contact.html">Contact</a>
           
-              <button onclick="toggleMode()"><i class="fa fa-moon"></i></button>
+              <button onclick="toggleMode()"><i class="fa fa-"></i></button>
            
          
            </div>
     </header>
-
-
+    <!--contact-->
+    <section>
+        <div class="contact">
+            <h1 style="font-size:55px">Contacts</h1><br><br>
+            <div class="order">
+                <div class="form">
+                    <form>
+                        <table>
+                        <label for="order">To Order Contact:</label><br>  
+                        <div class="ds">          
+            <a> <i class="fab fa-whatsapp"></i> 072 431 3513</a><br>
+            <a> <i class="fab fa-whatsapp"></i> 074 873 9223</a>
+        </div> 
+    </table>
+        </form>
+        <div class="icons">
+            <i class="fab fa-facebook" ><a href="www.facebook.com"></a></i>
+            <i class="fab fa-instagram"><a href="www.instagram.com"></a></i>
+            <i class="fab fa-twitter"><a href="www.twitter.com"></a></i>
+        </div>
+        
+        </div>
+        </div>
+        </div><br><br>
+    </section>
+    <!--contact-->
     <footer>
-        &copy;Glowry
+        &copy;Glowry|2024
     </footer>
     <script src="script.js"></script>
 </body>

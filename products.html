@@ -7,25 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
+        body{
+            background-image: url(tcp.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
         .img1 img{
-            width: 300px;
-            height: 250px;
+            width: 280px;
+            height: 270px;
         }
         .img2 img{
-            width: 300px;
-            height: 250px;
+            width: 280px;
+            height: 270px;
         }
         .img3 img{
-            width: 300px;
-            height: 250px;
+            width: 280px;
+            height: 270px;
         }
         .product{
             display: flex;
             flex-direction: row;
+            margin-left: 15%;
         }
         .img1 h2{
             text-align: center;
-            color: black;
+            color: white;
         }
         .img1 button{
             margin-left: 45%;
@@ -34,7 +41,7 @@
         }
         .img2 h2{
             text-align: center;
-            color: black;
+            color: white;
         }
         .img2 button{
             margin-left: 45%;
@@ -43,7 +50,7 @@
         }
         .img3 h2{
             text-align: center;
-            color: black;
+            color: white;
         }
         .img3 button{
             margin-left: 45%;
@@ -78,7 +85,7 @@
             text-decoration: none;
             margin-right: 15%;
             font-size: 25px;
-            color: black;
+            color: white;
             margin-top: 13px;
         }
       header a:hover{
@@ -90,43 +97,105 @@
         margin-right: 10%;
         margin-top: 15px;
       }
-  
+      
+     .p h1{
+        color: white;
+        text-align: center;
+        font-size: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+     }  
+     @media (max-width: 768px) {
+        .product{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           }      
+     }
+     footer{
+        margin-top: 3%;
+     }
     </style>
 </head>
 <body>
     <header>
-        <h1>Products</h1>
-        <div class="icons">
-        <a href="index.html"><i class="fa fa-house"></i></a>
-      
+       
+       
+            <logo>Glowry<span>18+</span></logo>
+            <div class="navbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="products.html">Products</a>
+               <a href="contact.html">Contact</a>
+             
+               <button onclick="toggleMode()"><i class="fa fa-moon"></i></button>
+     
+
         
     </div>
     </header>
+    <section>
+        <div class="p">
+        <h1>Products</h1>
+    </div>
     <div class="product">
         <div class="img1">
-            <img src="pc.jpeg">
+            <img src="cup 1.jpeg">
             <h2>R65.00</h2>
-            <button>Order</button>
+  
         </div>
         <div class="img2">
+            <img src="cup5.jpeg">
+            <h2>R65.00</h2>
+      
+        </div>
+        <div class="img3">
             <img src="pc1.jpeg">
             <h2>R65.00</h2>
-            <button>Order</button>
+        
         </div>
-        <div class="img3">
-            <img src="pc2.jpeg">
-            <h2>R65.00</h2>
-            <button>Order</button>
-        </div>
-        <div class="img3">
-            <img src="pc2.jpeg">
-            <h2>R65.00</h2>
-            <button>Order</button>
-        </div>
+       <br>
     </div>
-    
+    <div class="product">
+        <div class="img1">
+            <img src="cup 2.jpeg">
+            <h2>R65.00</h2>
+  
+        </div>
+        <div class="img2">
+            <img src="pc.jpeg">
+            <h2>R65.00</h2>
+      
+        </div>
+        <div class="img3">
+            <img src="cup 6.jpeg">
+            <h2>R65.00</h2>
+        
+        </div>
+       <br>
+    </div>
+    <div class="product">
+        <div class="img1">
+            <img src="cup4.jpeg">
+            <h2>R65.00</h2>
+  
+        </div>
+        <div class="img2">
+            <img src="pc2.jpeg">
+            <h2>R65.00</h2>
+      
+        </div>
+        <div class="img3">
+            <img src="cup 7.jpeg">
+            <h2>R65.00</h2>
+        
+        </div>
+       
+    </div>
+       
+    </div>
+</section>
     <footer>
-        &copy;Glowry
+        &copy;Glowry|2024
     </footer>
     <script src="script.js"></script>
 </body>

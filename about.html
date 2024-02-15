@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
+        body{
+            background-color: antiquewhite;
+        }
         .about h1{
             text-align: center;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
+            font-size: 50px;
         }
         .about p{
             color: white;
-            font-size: 18px;
+            font-size: 28px;
             width: 50%;
             border: none;
             height: auto;
@@ -23,31 +26,47 @@
             margin-top: 10%;
             margin-left: 26%;
         }
-        .Moyo{
+        .coffee h1{
+            color: rgb(245, 39, 39);
+            font-size: 48px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 50%;
             border: none;
-            width: 40%;
-            height: 60%;
-            float: left;
+            height: auto;
             text-align: center;
+            margin-left: 26%;
+            padding-top: 1rem;
+            border: solid black;
+            border-width: 80%;
+            padding-bottom: 1rem;
+            
         }
-        .Moyo img{
-            width: 70%;
-            height: 65%;
-         
+     
+        .bio{
+            margin: 3px;
         }
-        .zulu{
-            border: none;
-            width: 40%;
-            height: 60%;
-            float: left;
-            margin-left: 15%;
-            text-align: center;
-
-        }
-        .zulu img{
-            width: 70%;
-            height: 65%;
-          
+        @media (max-width: 768px) {
+            .bio{
+   
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+               }
+               .about p{
+                font-size: 15px;
+               }
+            .coffee{
+   
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 0;
+               }
+           section{
+            background: height 9vh;;
+           }
         }
     </style>
 </head>
@@ -66,37 +85,36 @@
     </header>
     <!--sec1-->
     <section style="background-image:url(images.jpg);
-    background-size:cover;background-repeat:no-repeat;height:55vh;">
+    background-size:cover;background-repeat:no-repeat;height:85vh;">
     <div class="about">
         <h1>About Us</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sint neque quia nesciunt doloremque non repellat! Soluta, cum. Non error at odit? Modi itaque soluta sapiente sunt odio quia dolorem?
+           Glowry is a company that only exist to bring back or maintain spark and creativity between lovers. Through our products, couples are able to convey kinky messages to each without having to use direct communication.
+           <br><br>
+           Our Goal is to bring harmony, increase sexual desire and spontanious exploration between lovers.
         </p>
+    
     
         </div>
     </div>
 </section>
     <!--sec1-->
 <!--sec2-->
-<section style="margin-top: 5%;">
-    <div class="Moyo">
-        <img src="man.jpg">
-        <h1>Sindiso Moyo</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus asperiores, culpa, quam quo, molestias quas voluptate enim eum quia veritatis error possimus vero eius voluptatum tenetur sunt ad. Alias, facere.
-        </p>
-    </div>
-    <div class="zulu">
-        <img src="man.jpg">
-        <h1>Sakhile Zulu</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias possimus quam dignissimos harum fugiat, doloremque officia quasi neque molestiae modi minima, iusto ipsa voluptatem fuga vitae? Illum, debitis veniam.
-        </p>
+<section style="background-image:url(coffe.jpg);
+background-size:cover;background-repeat:no-repeat;height:70vh; margin-bottom:0;padding-bottom:0;">
+<div class="coffee">
+    <h2></h2><br><br><br><br><br>
+    <h2></h2><br><br><br>
+ 
+    <h1>Taste your <span>Partner</span> while you sip</h1>
+</div>
+ 
 </section>
 <!--sec2-->
-<section id="footer" style="margin-top: 35%;">
+<section id="footer">
 <footer>
-    &copy;Glowry
+    &copy;Glowry|2024
+    
 </footer>
 </section>
     <script src="script.js"></script>
