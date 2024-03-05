@@ -17,10 +17,10 @@
             background-color: antiquewhite;
         }
         .hero{
-            margin-left: 15px;
+            
             display: flex;
             margin-top: 5%;
-            margin-left: 45%;
+            margin-left: 35%;
         }
     
     
@@ -61,15 +61,27 @@
         .hero .h1 .icons .fab.fa-twitter{
             color: rgb(50, 187, 221);
         }
-        .hero .h1 .icons .fab:hover{
-            color:white;
-        }
-        footer{
+            footer{
             padding: 20px;
             margin-top: 10%;
         }
        .hero .h1 p{
             color: white;
+        }
+        @media (max-width: 768px){
+            .hero{
+                display: flex;
+                margin-right: 50%;
+            }
+            .hero .h1 .icons{
+                margin-right: 50%;
+                justify-content: space-between;
+                font-size: 30px;
+                display: flex;
+                flex-direction: row;
+                padding: 15%;
+                margin: 5%;
+            }
         }
     </style>
 </head>
@@ -81,8 +93,7 @@
               <a href="about.html">About</a>
               <a href="products.html">Products</a>
               <a href="contact.html">Contact</a>
-              <button onclick="toggleMode()"><i class="fa fa-moon"></i></button>
-    
+             
            </div>
     </header>
     <!--Home-->
@@ -107,7 +118,7 @@
     <!--sec-->
     <footer>
         <p>
-            &copy;Glowry|2024
+            &copy;Glowry 2024
         </p>
         
     </footer>
